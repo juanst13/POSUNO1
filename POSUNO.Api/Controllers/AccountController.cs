@@ -22,6 +22,7 @@ namespace POSUNO.Api.Controllers
             _context = context;
         }
 
+        //https://localhost:44311/
         // GET: api/Account
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
